@@ -28,7 +28,7 @@ const NewsLetterForm = ({ onSuccess }: NewsletterFormProps) => {
     onSuccess(email.trim());
   };
   return (
-    <section className="flex w-full max-w-5xl flex-col overflow-hidden rounded-none bg-white md:max-w-3xl md:flex-row md:rounded-3xl md:p-5">
+    <section className="flex w-full max-w-5xl flex-col overflow-hidden rounded-none bg-white md:flex-row md:rounded-3xl md:p-5">
       <div className="block md:hidden ">
         <img
           src="/images/illustration-sign-up-mobile.svg"
