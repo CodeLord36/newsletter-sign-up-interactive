@@ -58,7 +58,7 @@ const NewsLetterForm = ({ onSuccess }: NewsletterFormProps) => {
 
           <button
             type="submit"
-            className="w-full rounded-lg bg-blue-900 px-5 py-4 font-bold text-white transition hover:bg-linear-to-r hover:from-[#ff5476] hover:to-[#ff6742] hover:shadow-lg"
+            className="w-full rounded-lg bg-blue-800 px-5 py-4 font-bold text-white transition hover:bg-linear-to-r hover:from-[#ff5476] hover:to-[#ff6742] hover:shadow-lg"
           >
             Subscribe to monthly newsletter
           </button>
