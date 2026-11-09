@@ -10,8 +10,40 @@
   --color-blue-800: hsl(234, 29%, 20%);
   --color-blue-900: hsl(234, 29%, 20%);
   --color-grey: hsl(0, 0%, 58%);
-  --color-white:
-    hsl(0, 0%, 100%) /* Typography */ --font-roboto: "Roboto", sans-serif;
+  --color-white: hsl(0, 0%, 100%);
+
+  /* Typography */
+  --font-roboto: "Roboto", sans-serif;
 }
 
 /* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-blue-800);
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

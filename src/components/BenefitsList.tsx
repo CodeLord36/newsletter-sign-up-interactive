@@ -2,9 +2,9 @@ import { benefits } from "../data/benefits";
 
 const BenefitsList = () => {
   return (
-    <ul className="">
+    <ul className="flex flex-col gap-3 ">
       {benefits.map((benefit) => (
-        <li key={benefit.id} className="">
+        <li key={benefit.id} className="flex items-start gap-4 ">
           <img
             src="/images/icon-success.svg"
             alt="success-icon"

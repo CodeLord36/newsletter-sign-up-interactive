@@ -16,7 +16,7 @@ function App() {
   };
 
   return (
-    <main className="">
+    <main className="font-roboto flex min-h-screen items-center justify-center bg-white md:bg-blue-800 md:p-6 ">
       {isSubmitted ? (
         <SuccessMessage email={submittedEmail} onDismiss={handleDismiss} />
       ) : (
